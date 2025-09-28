@@ -26,7 +26,7 @@ Includes clean code, time/space analysis, and topic-wise organization for learni
 |------------|------------------------------------|-----------------------------------------------|
 | 33         | Search in Rotated Sorted Array     | 33_Search_in_Rotated_Sorted_Array.cpp         |
 | 540        | Add binary search solution         | 540-Single-Element-in-a-Sorted-Array.cpp      |
-| 33         | Search in Rotated Sorted Array     | 33_Search_in_Rotated_Sorted_Array.cpp         |
+| 33         | Search Insert Position             | Search_Insert_Position.cpp                    |
 ---
 
 ### Notes
