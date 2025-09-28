@@ -37,3 +37,10 @@ int main() {
     // Output: 50000 300 7
     return 0;
 }
+/*
+Approach:
+- Iterate through the digits of n from right to left (units place upwards).
+- Keep track of the current place value (1, 10, 100, ...).
+- If a digit is non-zero, calculate its component value (digit * place) and store it.
+- Finally, reverse the result to have the components in descending order of place value.
+*/
