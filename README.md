@@ -29,6 +29,11 @@ Includes clean code, time/space analysis, and topic-wise organization for learni
 | 33         | Search Insert Position             | Search_Insert_Position.cpp                    |
 ---
 
+## Math
+
+| Problem No | Title                              | File Name                                      |
+|------------|------------------------------------|-----------------------------------------------|
+| 3697       |Compute Decimal Representation      |3697_ Compute_Decimal_Representation.cpp       |
 ### Notes
 
 - All solutions are written in **C++**.
