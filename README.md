@@ -1,9 +1,7 @@
 # Aadarsh-DSA
-C++ implementations of Data Structures &amp; Algorithms (LeetCode &amp; practice problems). Includes clean code, time/space analysis, and topic-wise organization for learning and interview prep.
-# Aadarsh-DSA Repository
 
-C++ implementations of Data Structures & Algorithms (LeetCode & practice problems).  
-Includes clean code, time/space analysis, and topic-wise organization for learning and interview prep.
+C++ implementations of **Data Structures & Algorithms** (LeetCode & practice problems).  
+Includes **clean code**, **time/space analysis**, and **topic-wise organization** for learning and interview prep.
 
 ---
 
@@ -25,17 +23,29 @@ Includes clean code, time/space analysis, and topic-wise organization for learni
 | Problem No | Title                              | File Name                                      |
 |------------|------------------------------------|-----------------------------------------------|
 | 33         | Search in Rotated Sorted Array     | 33_Search_in_Rotated_Sorted_Array.cpp         |
-| 540        | Add binary search solution         | 540-Single-Element-in-a-Sorted-Array.cpp      |
-| 33         | Search Insert Position             | Search_Insert_Position.cpp                    |
+| 540        | Single Element in a Sorted Array   | 540_Single_Element_in_a_Sorted_Array.cpp      |
+| 35         | Search Insert Position             | 35_Search_Insert_Position.cpp                 |
+
 ---
 
 ## Math
 
 | Problem No | Title                              | File Name                                      |
 |------------|------------------------------------|-----------------------------------------------|
-| 3697       |Compute Decimal Representation      |3697_ Compute_Decimal_Representation.cpp       |
-### Notes
+| 3697       | Compute Decimal Representation      | 3697_Compute_Decimal_Representation.cpp      |
+| 7          | Reverse Integer                     | 7_Reverse_Integer.cpp                         |
 
-- All solutions are written in **C++**.
-- Problems are organized by topic for easier navigation.
-- Each file is named with its **LeetCode problem number** followed by a descriptive title.
+---
+
+## Notes
+
+- All solutions are written in **C++**.  
+- Problems are organized by topic for easier navigation.  
+- Each file is named with its **LeetCode problem number** followed by a descriptive title.  
+- Each solution includes:
+  - **Clean, readable code**  
+  - **Time and space complexity analysis**  
+  - **Driver code / example test cases** where applicable  
+  - **Approach explanation** (in comments for GitHub readers)  
+
+---
