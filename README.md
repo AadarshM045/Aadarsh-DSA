@@ -12,8 +12,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 11         | Container With Most Water            | 11_Container_With_Most_Water.cpp              |
 | 121        | Best Time to Buy and Sell Stock      | 121_Best_Time_to_Buy_and_Sell_Stock.cpp       |
 | 169        | Majority Element                     | 169_Majority_Element.cpp                      |
-| 238        | Product of Array Except Self         | 238_ProductOfArrayExceptSelf.cpp              |
-| 238        | Product of Array Except Self (alt)   | 238_Product_of_Array_Except_Self.cpp          |
+| 238        | Product of Array Except Self         | 238_Product_of_Array_Except_Self.cpp          |
 | 53         | Maximum Subarray                     | 53_Maximum_Subarray.cpp                       |
 
 ---
