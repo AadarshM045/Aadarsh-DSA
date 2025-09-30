@@ -2,7 +2,7 @@
 // Problem: 9. Palindrome Number
 // Difficulty: Easy
 // Link: https://leetcode.com/problems/palindrome-number/
-
+//Time Complexity: O(log10(n)) && Space Complexity: O(1)
 class Solution {
 public:
     bool isPalindrome(int x) {
