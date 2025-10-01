@@ -33,7 +33,8 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 |------------|------------------------------------|-----------------------------------------------|
 | 3697       | Compute Decimal Representation      | 3697_Compute_Decimal_Representation.cpp      |
 | 7          | Reverse Integer                     | 7_Reverse_Integer.cpp                         |
-
+|9           |palindrome-number.cpp                | 009-palindrome-number.cpp                     |
+|66|         |PlusOne.cpp                          |66_PlusOne.cpp                                 | 
 ---
 
 ## Notes
