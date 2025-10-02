@@ -25,7 +25,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 540        | Single Element in a Sorted Array   | 540_Single_Element_in_a_Sorted_Array.cpp      |
 | 35         | Search Insert Position             | 35_Search_Insert_Position.cpp                 |
 | 410        | Split Array Largest Sum            | 410_Split_Array_Largest_Sum.cpp               |
-|34          |Find First and Last Position of Elemen in Sorted Array|Find_First_and_Last_Position_of_Elemen_in_Sorted_Array.cpp|
+|34          |Find First and Last Position of Elemen in Sorted Array|39_Find_First_and_Last_Position_of_Elemen_in_Sorted_Array.cpp|
 ---
 
 ## Math
