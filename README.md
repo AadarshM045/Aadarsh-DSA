@@ -32,11 +32,11 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 
 | Problem No | Title                               | File Name                                     |
 |------------|-------------------------------------|-----------------------------------------------|
-| 3697       | Compute Decimal Representation      | 3697_Compute_Decimal_Representation.cpp      |
+| 3697       | Compute Decimal Representation      | 3697_Compute_Decimal_Representation.cpp       |
 | 7          | Reverse Integer                     | 7_Reverse_Integer.cpp                         |
 | 9          | Palindrome Number                   | 009_Palindrome_Number.cpp                     |
 | 66         | Plus One                            | 66_PlusOne.cpp                                |
-
+| 69         | Sqrt(x)                             | 69_Sqrt(x).cpp                                |
 ---
 
 ## Notes
