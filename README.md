@@ -40,6 +40,12 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 3697       | Compute Decimal Representation       | [3697_Compute_Decimal_Representation.cpp](Math/3697_Compute_Decimal_Representation.cpp) |
 |268         |  Missing Number                      | [268_Missing_Number.cpp](Math/268_Missing_Number.cpp) |
 
+## Sorting
+
+| Problem No | Title        | File Name                               |
+|------------|--------------|-----------------------------------------|
+| 75         | Sort Colors  | [75_SortColors.cpp](Sorting/75_SortColors.cpp) |
+
 
 ---
 
