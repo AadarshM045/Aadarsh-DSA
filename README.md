@@ -38,6 +38,8 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 9          | Palindrome Number                    | [9_Palindrome_Number.cpp](Math/9_Palindrome_Number.cpp)                   |
 | 66         | Plus One                             | [66_PlusOne.cpp](Math/66_PlusOne.cpp)                                     |
 | 3697       | Compute Decimal Representation       | [3697_Compute_Decimal_Representation.cpp](Math/3697_Compute_Decimal_Representation.cpp) |
+|268         |  Missing Number                      | [268_Missing_Number.cpp](Math/268_Missing_Number.cpp) |
+
 
 ---
 
