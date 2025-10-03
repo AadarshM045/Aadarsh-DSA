@@ -2,14 +2,19 @@
 Problem: 75. Sort Colors
 Level: Medium
 
-Approach:
-- Count the number of 0s, 1s, and 2s in the array.
-- Rewrite the array with that many 0s, then 1s, then 2s.
+Approach (Dutch National Flag Algorithm):
+- Use three pointers: low, mid, high.
+- low: position for next 0
+- mid: current element being checked
+- high: position for next 2
+- Traverse the array once, swap accordingly:
+    - If nums[mid] == 0 → swap(nums[low], nums[mid]), low++, mid++
+    - If nums[mid] == 1 → mid++
+    - If nums[mid] == 2 → swap(nums[mid], nums[high]), high--
 - Time Complexity: O(n)
 - Space Complexity: O(1)
 
-Alternative (Interview-favorite):
-- Dutch National Flag algorithm (one-pass, in-place swap).
+This sorts the array in one pass without counting.
 */
 
 #include <iostream>
@@ -19,25 +24,23 @@ using namespace std;
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        int red = 0, white = 0, blue = 0;
+        int low = 0, mid = 0;
+        int high = nums.size() - 1;
 
-        // Count 0s, 1s, 2s
-        for (auto i : nums) {
-            if (i == 0) red++;
-            else if (i == 1) white++;
-            else blue++;
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                swap(nums[low], nums[mid]);
+                low++;
+                mid++;
+            } 
+            else if (nums[mid] == 1) {
+                mid++;
+            } 
+            else { // nums[mid] == 2
+                swap(nums[mid], nums[high]);
+                high--;
+            }
         }
-
-        int idx = 0;
-
-        // Fill 0s
-        for (int i = 0; i < red; i++) nums[idx++] = 0;
-
-        // Fill 1s
-        for (int i = 0; i < white; i++) nums[idx++] = 1;
-
-        // Fill 2s
-        for (int i = 0; i < blue; i++) nums[idx++] = 2;
     }
 };
 
