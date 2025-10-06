@@ -45,7 +45,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Problem No | Title        | File Name                               |
 |------------|--------------|-----------------------------------------|
 | 75         | Sort Colors  | [75_SortColors.cpp](Sorting/75_SortColors.cpp) |
-
+| 88         | Merge Sorted Array|[88_Merge_Sorted_Array.cpp](Sorting/88_Merge_Sorted_Array.cpp).|
 
 ---
 
