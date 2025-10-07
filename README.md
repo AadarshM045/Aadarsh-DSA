@@ -56,6 +56,11 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 88         | Merge Sorted Array|[88_Merge_Sorted_Array.cpp](Sorting/88_Merge_Sorted_Array.cpp).|
 | 31         | Next Permutation | [31_Next_Permutation.cpp](Sorting/31_Next_Permutation.cpp)
 
+## Strings
+
+| Problem No | Title        | File Name                               |
+|------------|--------------|-----------------------------------------|
+| 125        |Valid Palindrome|[125.Valid Palindrome].[Strings/125_Valid_Palindrome.cpp]
 ---
 
 ## Notes
