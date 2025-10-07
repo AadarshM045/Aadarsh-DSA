@@ -61,7 +61,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Problem No | Title        | File Name                               |
 |------------|--------------|-----------------------------------------|
 | 125        |Valid Palindrome|[125.Valid Palindrome](Strings/125_Valid_Palindrome.cpp)
-| 1910       | Remove All Occurrences of a Substring|[1910.Remove All Occurrences of a Substring](Strings/1910_ Remove_All_Occurrences_of _a_Substring.cpp)
+| 1910       | Remove All Occurrences of a Substring|[1910.Remove All Occurrences of a Substring](Strings/1910_ Remove_All_Occurrences_of_a_Substring.cpp)
 ---
 
 ## Notes
