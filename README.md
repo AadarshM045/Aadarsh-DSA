@@ -60,7 +60,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 
 | Problem No | Title        | File Name                               |
 |------------|--------------|-----------------------------------------|
-| 125        |Valid Palindrome|[125.Valid Palindrome].[Strings/125_Valid_Palindrome.cpp]
+| 125        |Valid Palindrome|[125.Valid Palindrome].(Strings/125_Valid_Palindrome.cpp)
 ---
 
 ## Notes
