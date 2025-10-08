@@ -62,7 +62,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 |------------|--------------|-----------------------------------------|
 | 125        |Valid Palindrome|[125.Valid Palindrome](Strings/125_Valid_Palindrome.cpp)
 | 1910       | Remove All Occurrences of a Substring|[1910. Remove All Occurrences of a Substring](Strings/1910_Remove_All_Occurrences_of_a_Substring.cpp)
-
+| 567        |Permutation in String| [567. Permutation in String](Strings/567_Permutation_in_String.cpp)|
 ---
 
 ## Notes
