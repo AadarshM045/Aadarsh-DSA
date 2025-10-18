@@ -10,8 +10,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 - **Apna College Interview Sheet (Companies & Questions)**:  
   [Interview Questions Sheet](https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?pli=1&gid=0#gid=0)
 
-- **My LeetCode Profile**:  
-  [Aadarsh_M045](https://leetcode.com/u/NiPH9EiyCp/)
+
 
 ## Arrays
 
