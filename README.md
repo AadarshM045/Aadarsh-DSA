@@ -22,6 +22,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 169        | Majority Element                     | [169_Majority_Element.cpp](Arrays/169_Majority_Element.cpp)               |
 | 238        | Product of Array Except Self         | [238_Product_of_Array_Except_Self.cpp](Arrays/238_Product_of_Array_Except_Self.cpp) |
 | 283        | Move Zeroes                          | [283_Move_Zeroes.cpp](Arrays/283_Move_Zeroes.cpp) |
+| 88         | Merge Sorted Array                   | [88_Merge_Sorted_Array.cpp](Arrays/88_Merge_Sorted_Array.cpp)|
 ---
 
 ## Binary Search
