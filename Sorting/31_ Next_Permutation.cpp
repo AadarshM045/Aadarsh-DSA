@@ -1,41 +1,46 @@
-
 #include <vector>
-#include <algorithm> // for reverse and swap
+#include <algorithm>
 #include <iostream>
-using namespace std;
 
 class Solution {
 public:
-    void nextPermutation(vector<int>& nums) {
+    void nextPermutation(std::vector<int>& nums) {
         int n = nums.size();
-        int pivot = -1;
-
-        // Step 1: Find the pivot (first number from right that is smaller than its next)
+        
+        // 1. Find the Pivot Index (i)
+        // Scan backward for the first element nums[i] < nums[i+1]
+        int pivot_idx = -1;
         for (int i = n - 2; i >= 0; i--) {
             if (nums[i] < nums[i + 1]) {
-                pivot = i;
+                pivot_idx = i;
                 break;
             }
         }
-
-        // Step 2: If pivot exists, swap it with the smallest number larger than pivot to its right
-        if (pivot != -1) {
-            for (int i = n - 1; i > pivot; i--) {
-                if (nums[i] > nums[pivot]) {
-                    swap(nums[i], nums[pivot]);
-                    break;
-                }
+        
+        // --- EDGE CASE: Largest Permutation ---
+        // If no pivot is found (pivot_idx == -1), the array is fully descending (e.g., [3, 2, 1]).
+        // We reverse the entire array to get the lowest possible order (e.g., [1, 2, 3]).
+        if (pivot_idx == -1) {
+            std::reverse(nums.begin(), nums.end());
+            return;
+        }
+        
+        // --- Steps 2 & 3: Next Permutation Exists ---
+        
+        // 2. Find the Swap Index (j)
+        // Scan backward from the end to find the smallest element nums[j]
+        // that is still strictly greater than the pivot nums[pivot_idx].
+        for (int j = n - 1; j > pivot_idx; j--) {
+            if (nums[j] > nums[pivot_idx]) {
+                // Perform the swap
+                std::swap(nums[pivot_idx], nums[j]);
+                break; // Stop after the first swap
             }
         }
-
-        // Step 3: Reverse the subarray after pivot to get the next permutation
-        reverse(nums.begin() + pivot + 1, nums.end());
+        
+        // 3. Reverse the Suffix
+        // Reverse the elements that are to the right of the pivot.
+        // This puts them in the lowest possible (ascending) order.
+        std::reverse(nums.begin() + pivot_idx + 1, nums.end());
     }
 };
-
-// Time Complexity: O(n) - single pass to find pivot + single pass to swap + reverse
-// Space Complexity: O(1) - in-place modification
-// Approach:
-// 1. Scan from right to left to find the first "pivot" where nums[i] < nums[i+1].
-// 2. If pivot exists, find the smallest number greater than pivot in the suffix and swap.
-// 3. Reverse the suffix to get the next lexicographical permutation.
