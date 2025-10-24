@@ -1,14 +1,27 @@
-# Aadarsh-DSA
+# 🚀 Aadarsh DSA Repository
+> Mastering Data Structures & Algorithms in C++ | LeetCode + Practice Problems
 
 C++ implementations of **Data Structures & Algorithms** (LeetCode & practice problems).  
 Includes **clean code**, **time/space analysis**, and **topic-wise organization** for learning and interview prep.
 
 ---
 
-## 📚 Resources
+## 🧭 Table of Contents
+- [About](#about)
+- [Resources](#resources)
+- [Arrays](#arrays)
+- [Binary Search](#binary-search)
+- [Math](#math)
+- [Sorting](#sorting)
+- [Strings](#strings)
+- [Notes](#notes)
 
+---
+
+## 📚 Resources
 - **Apna College Interview Sheet (Companies & Questions)**:  
   [Interview Questions Sheet](https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?pli=1&gid=0#gid=0)
+
 
 
 
