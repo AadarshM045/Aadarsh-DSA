@@ -2,7 +2,7 @@
 > Mastering Data Structures & Algorithms in C++ | LeetCode + Practice Problems
 
 C++ implementations of **Data Structures & Algorithms** (LeetCode & practice problems).  
-Includes **clean code**, **time/space analysis**, and **topic-wise organization** for learning and interview prep.
+Includes **clean code**, **time/space analysis**, and **topic-wise organization** for learning and interview prepration.
 
 ---
 
