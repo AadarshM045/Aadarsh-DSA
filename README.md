@@ -39,6 +39,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 229        | Majority Element II                  | [229_Majority_Element_II.cpp](Arrays/229_Majority_Element_II.cpp)
 | 122        | Best Time to Buy and Sell Stock II   | [122. Best Time to Buy and Sell Stock II](Arrays/122_Best_Time_to_Buy_and_Sell_Stock_II.cpp)
 | 910        | Smallest Range II                    | [910_Smallest_Range_II.cpp](Arrays/910_Smallest_Range_II.cpp)
+| 152        | 152. Maximum Product Subarray        | [152. Maximum Product Subarray](Arrays/152_Maximum_Product_Subarray.cpp)
 ---
 
 ## Binary Search
