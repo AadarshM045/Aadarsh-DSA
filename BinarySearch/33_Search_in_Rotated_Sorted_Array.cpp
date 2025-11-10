@@ -1,5 +1,16 @@
 // 33. Search in Rotated Sorted Array
 // Difficulty: Medium
+/*
+🧠 Approach: Search in Rotated Sorted Array
+
+The array is sorted but rotated at an unknown pivot.
+
+We must find the target using binary search in O(log n) time.
+
+Key idea: At least one half (left or right) of the array is always sorted.
+
+Use this property to decide which half to continue searching in.
+    */
 #include <bits/stdc++.h>
 using namespace std;
 
