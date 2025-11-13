@@ -65,7 +65,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 3697       | Compute Decimal Representation       | [3697_Compute_Decimal_Representation.cpp](Math/3697_Compute_Decimal_Representation.cpp) |
 | 268         |  Missing Number                      | [268_Missing_Number.cpp](Math/268_Missing_Number.cpp) |
 | 2485        |  Find the Pivot Integer              | [2485_Find_the_Pivot_Integer.cpp](Math/2485_Find_the_Pivot_Integer.cpp)
-|
+| 1502        |Can Make Arithmetic Progression From Sequence|[1502. Can Make Arithmetic Progression From Sequence](Math/1502_Can_Make_Arithmetic_Progression_From_Sequence.cpp)
 
 ## Sorting
 
