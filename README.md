@@ -52,6 +52,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 69         | Sqrt(x)                              | [69_Sqrt_x.cpp](BinarySearch/69_Sqrt_x.cpp)                               |
 | 410        | Split Array Largest Sum              | [410_Split_Array_Largest_Sum.cpp](BinarySearch/410_Split_Array_Largest_Sum.cpp) |
 | 540        | Single Element in a Sorted Array     | [540_Single_Element_in_a_Sorted_Array.cpp](BinarySearch/540_Single_Element_in_a_Sorted_Array.cpp) |
+| 3745       |Maximize Expression of Three Elements|[3745_Maximize_Expression_of_Three_Elements](Arrays/3745_Maximize_Expression_of_Three_Elements.cpp)
 
 ---
 
