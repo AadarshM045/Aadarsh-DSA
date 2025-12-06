@@ -41,6 +41,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 910        | Smallest Range II                    | [910_Smallest_Range_II.cpp](Arrays/910_Smallest_Range_II.cpp)
 | 152        | 152. Maximum Product Subarray        | [152. Maximum Product Subarray](Arrays/152_Maximum_Product_Subarray.cpp)
 | 27         | 27. Remove Element                   | [27. Remove Element](Arrays/27_Remove_Element.cpp)
+|26          |26. Remove Duplicates from Sorted Array|[26_Remove_Duplicates_from_Sorted_Array.cpp](Arrays/26_Remove_Duplicates_from_Sorted_Array.cpp)
 ---
 
 ## Binary Search
