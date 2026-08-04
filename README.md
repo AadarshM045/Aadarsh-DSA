@@ -98,5 +98,5 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 - Each solution includes:
   - **Clean, readable code**  
   - **Time and space complexity analysis**  
-  - **Driver code / example test cases** where applicabl
+  - **Driver code / example test cases** where applicable
   - **Approach explanation** (in comments for GitHub readers)
