@@ -9,6 +9,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 ## 🧭 Table of Contents
 - [About](#about)
 - [Resources](#resources)
+- [Patterns](#patterns)
 - [Arrays](#arrays)
 - [Binary Search](#binary-search)
 - [Math](#math)
@@ -22,7 +23,11 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 - **Apna College Interview Sheet (Companies & Questions)**:  
   [Interview Questions Sheet](https://docs.google.com/spreadsheets/d/1mvlc8EYc3OVVU3X7NKoC0iZJr_45BL_pVxiJec0r94c/edit?pli=1&gid=0#gid=0)
 
+## Patterns
 
+| Pattern Name | File Name | Description |
+|--------------|-----------|-------------|
+| Rectangular Number Pattern | [Rectangular_Number_Pattern.cpp](Patterns/Rectangular_Number_Pattern.cpp) | Prints numbers from 1 to n in a grid layout |
 
 
 ## Arrays
