@@ -28,6 +28,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Pattern Name | File Name | Description |
 |--------------|-----------|-------------|
 | Rectangular Number Pattern | [Rectangular_Number_Pattern.cpp](Patterns/Rectangular_Number_Pattern.cpp) | Prints numbers from 1 to n in a grid layout |
+| Rectangular Alphabet Pattern | [Rectangular_Alphabet_Pattern.cpp](Patterns/Rectangular_Alphabet_Pattern.cpp) | Prints consecutive uppercase alphabets from A to D in a grid layout |
 
 
 ## Arrays
