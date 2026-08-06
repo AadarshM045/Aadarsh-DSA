@@ -21,10 +21,10 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Inner loop controls the columns (printing and incrementing numbers)
         for (int j = 1; j <= n; j++) {
-            cout << a << " "; // Printed with space for cleaner grid readability
-            a++;              // Increment the number for the next position
+            cout << a << " "; 
+            a++;              
         }
-        cout << "\n"; // Move to the next line after completing a row
+        cout << "\n"; 
     }
 
     return 0;
