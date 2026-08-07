@@ -31,6 +31,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Rectangular Alphabet Pattern | [2_Rectangular_Alphabet_Pattern.cpp](Patterns/2_Rectangular_Alphabet_Pattern.cpp) | Prints consecutive uppercase alphabets from A to D in a grid layout |
 | Square Incremental Number Pattern | [3_Square_Incremental_Number_Pattern.cpp](Patterns/3_Square_Incremental_Number_Pattern.cpp) | Prints an NxN grid of continuously incrementing numbers |
 | Right Angled Triangle Pattern | [4_Right_Angled_Triangle_Pattern.cpp](Patterns/4_Right_Angled_Triangle_Pattern.cpp) | Prints a right-angled triangle star pattern |
+| Right Angled Number Pyramid | [5_Right_Angled_Number_Pyramid.cpp](Patterns/5_Right_Angled_Number_Pyramid.cpp) | Prints a right-angled number pyramid pattern |
 
 
 ## Arrays
