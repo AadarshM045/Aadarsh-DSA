@@ -36,6 +36,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Repeating Row Number Triangle | [7_Repeating_Row_Number_Triangle.cpp](Patterns/7_Repeating_Row_Number_Triangle.cpp) | Prints a triangle with repeating row numbers |
 | Repeating Row Alphabet Triangle | [8_Repeating_Row_Alphabet_Triangle.cpp](Patterns/8_Repeating_Row_Alphabet_Triangle.cpp) | Prints a triangle with repeating sequential alphabets per row |
 | Floyd's Triangle | [9_Floyds_Triangle.cpp](Patterns/9_Floyds_Triangle.cpp) | Prints Floyd's Triangle using continuously incrementing numbers |
+| Inverted Repeating Number Triangle | [10_Inverted_Repeating_Number_Triangle.cpp](Patterns/10_Inverted_Repeating_Number_Triangle.cpp) | Prints an inverted triangle with leading spaces and repeating numbers |
 
 
 ## Arrays
