@@ -34,6 +34,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Right Angled Number Pyramid | [5_Right_Angled_Number_Pyramid.cpp](Patterns/5_Right_Angled_Number_Pyramid.cpp) | Prints a right-angled number pyramid pattern |
 | Reversed Row Number Triangle | [6_Reversed_Row_Number_Triangle.cpp](Patterns/6_Reversed_Row_Number_Triangle.cpp) | Prints a right-angled triangle counting down to 1 per row |
 | Repeating Row Number Triangle | [7_Repeating_Row_Number_Triangle.cpp](Patterns/7_Repeating_Row_Number_Triangle.cpp) | Prints a triangle with repeating row numbers |
+| Repeating Row Alphabet Triangle | [8_Repeating_Row_Alphabet_Triangle.cpp](Patterns/8_Repeating_Row_Alphabet_Triangle.cpp) | Prints a triangle with repeating sequential alphabets per row |
 
 
 ## Arrays
