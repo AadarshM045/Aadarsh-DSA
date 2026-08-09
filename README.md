@@ -110,10 +110,12 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 ## Notes
 
 - All solutions are written in **C++**.  
-- Problems are organized by topic for easier navigation.  
-- Each file is named with its **LeetCode problem number** followed by a descriptive title.  
+- Problems and exercises are organized by topic (e.g., **Patterns**, **Arrays**, **Binary Search**, **Math**, **Sorting**, **Strings**) for easier navigation.  
+- File naming conventions:
+  - **Pattern files** are sequentially numbered with descriptive titles (e.g., `1_Rectangular_Number_Pattern.cpp`, `13_Butterfly_Star_Pattern.cpp`).
+  - **Algorithmic problems** are named with its **LeetCode problem number** followed by a descriptive title.
 - Each solution includes:
   - **Clean, readable code**  
-  - **Time and space complexity analysis**  
+  - **Time and space complexity analysis** (where applicable)  
   - **Driver code / example test cases** where applicable
   - **Approach explanation** (in comments for GitHub readers)
