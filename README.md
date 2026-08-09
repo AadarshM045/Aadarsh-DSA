@@ -38,6 +38,8 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | Floyd's Triangle | [9_Floyds_Triangle.cpp](Patterns/9_Floyds_Triangle.cpp) | Prints Floyd's Triangle using continuously incrementing numbers |
 | Inverted Repeating Number Triangle | [10_Inverted_Repeating_Number_Triangle.cpp](Patterns/10_Inverted_Repeating_Number_Triangle.cpp) | Prints an inverted triangle with leading spaces and repeating numbers |
 | Palindromic Number Pyramid | [11_Palindromic_Number_Pyramid.cpp](Patterns/11_Palindromic_Number_Pyramid.cpp) | Prints a centered palindromic number pyramid pattern |
+| Hollow Diamond Star Pattern | [12_Hollow_Diamond_Star_Pattern.cpp](Patterns/12_Hollow_Diamond_Star_Pattern.cpp) | Prints a symmetric hollow diamond star pattern |
+| Butterfly Star Pattern | [13_Butterfly_Star_Pattern.cpp](Patterns/13_Butterfly_Star_Pattern.cpp) | Prints a symmetric butterfly star pattern on an 8x8 grid |
 
 
 ## Arrays
