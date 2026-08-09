@@ -59,6 +59,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 152        | Maximum Product Subarray        | [152. Maximum Product Subarray](Arrays/152_Maximum_Product_Subarray.cpp)
 | 27         | Remove Element                   | [27. Remove Element](Arrays/27_Remove_Element.cpp)
 |26          | Remove Duplicates from Sorted Array|[26_Remove_Duplicates_from_Sorted_Array.cpp](Arrays/26_Remove_Duplicates_from_Sorted_Array.cpp)
+| 136        | Single Number                  | [136_Single_Number.cpp](Arrays/136_Single_Number.cpp) |
 ---
 
 ## Binary Search
