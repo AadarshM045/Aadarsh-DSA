@@ -88,7 +88,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 2485        |  Find the Pivot Integer              | [2485_Find_the_Pivot_Integer.cpp](Math/2485_Find_the_Pivot_Integer.cpp)
 | 1502        |Can Make Arithmetic Progression From Sequence|[1502. Can Make Arithmetic Progression From Sequence](Math/1502_Can_Make_Arithmetic_Progression_From_Sequence.cpp)
 |263          |Ugly Number                           |[263.Ugly Number](Math/263_Ugly_Number.cpp)
-| 50 | Pow(x, n) | [50_Pow_x_n.cpp](Math/50\ Pow\(x,\ n\).cpp) |
+| 50 | Pow(x, n) | [50_Pow_x_n.cpp](Math/50_Pow(x, n).cpp) |
 
 ## Sorting
 
