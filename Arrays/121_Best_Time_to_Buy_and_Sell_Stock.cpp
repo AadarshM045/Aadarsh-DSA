@@ -1,42 +1,53 @@
-#include <bits/stdc++.h>      // includes all standard C++ libraries
-using namespace std;
+// 121. Best Time to Buy and Sell Stock
+// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+// Time Complexity: O(N)
+// Space Complexity: O(1)
 
-// Problem: Best Time to Buy and Sell Stock (LeetCode 121)
-// Goal: Find the maximum profit from buying and selling once.
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
 
 class Solution {
 public:
-    // Function that returns the maximum profit
     int maxProfit(vector<int>& prices) {
-        int bestbuy = prices[0];      // minimum price seen so far (best day to buy)
-        int profit = 0;               // maximum profit found so far
+        if (prices.empty()) return 0;
+        
+        int bestbuy = prices[0];      
+        int profit = 0;               
 
-        // Start from day 1 because we already used day 0
-        for (int i = 1; i < (int)prices.size(); i++) {
+        for (int i = 1; i < prices.size(); i++) {
             if (prices[i] < bestbuy) {
-                // Found a cheaper price → update best buy price
                 bestbuy = prices[i];
             } else {
-                // Sell today and update profit if it is better
                 profit = max(profit, prices[i] - bestbuy);
             }
         }
-        return profit;  // maximum profit after checking all days
+        return profit; 
     }
 };
 
 int main() {
-    int n;                              // number of price entries (days)
-    cin >> n;                            // read how many prices we have
+    Solution sol;
+    
+    // Test Case 1
+    vector<int> prices1 = {7, 1, 5, 3, 6, 4};
+    cout << "Test Case 1 Output: " << sol.maxProfit(prices1) << " (Expected: 5)" << endl;
+    
+    // Test Case 2
+    vector<int> prices2 = {7, 6, 4, 3, 1};
+    cout << "Test Case 2 Output: " << sol.maxProfit(prices2) << " (Expected: 0)" << endl;
 
-    vector<int> prices(n);               // create a vector of size n
-    for (int i = 0; i < n; i++) {
-        cin >> prices[i];                // read each price
-    }
-
-    Solution sol;                        // create an object of the Solution class
-    int answer = sol.maxProfit(prices);  // call the function to compute profit
-    cout << answer << endl;              // print the maximum profit
-
-    return 0;                            // program finished successfully
+    return 0;
 }
+
+/*
+Approach:
+- Maintain two variables: `bestbuy` to track the lowest stock price seen so far, and `profit` to track the maximum profit achievable.
+- Iterate through the given prices array starting from the second day.
+- If the current day's price is lower than `bestbuy`, update `bestbuy`.
+- If the current day's price is higher, calculate the potential profit (current price - `bestbuy`) and update `profit` if this potential profit is strictly greater than the current `profit`.
+- Edge cases: If the prices are continuously decreasing (e.g., `[7, 6, 4, 3, 1]`), the profit variable will never update and correctly returns `0`. Handled empty input correctly as well.
+- This one-pass approach guarantees finding the max difference with the buy day strictly preceding the sell day.
+*/
