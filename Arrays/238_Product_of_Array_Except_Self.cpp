@@ -1,9 +1,11 @@
 // 238. Product of Array Except Self
 // https://leetcode.com/problems/product-of-array-except-self/
 // Time Complexity: O(n)
-// Space Complexity: O(1) extra (output array excluded)
+// Space Complexity: O(1) (excluding output array)
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+
 using namespace std;
 
 class Solution {
@@ -30,7 +32,6 @@ public:
     }
 };
 
-// Example run (optional)
 int main() {
     Solution sol;
     vector<int> nums = {1, 2, 3, 4};
@@ -41,3 +42,11 @@ int main() {
     cout << endl;
     return 0;
 }
+
+/*
+Approach:
+- Use a two-pass approach to compute the product of array elements except self without using division.
+- Prefix pass: Iterate from left to right, maintaining a running prefix product and storing it in the result array.
+- Postfix pass: Iterate from right to left, maintaining a running postfix product and multiplying it with the existing values in the result array.
+- Edge case handling: Handles standard arrays efficiently in linear time and constant extra space.
+*/
