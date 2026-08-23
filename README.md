@@ -60,7 +60,7 @@ Includes **clean code**, **time/space analysis**, and **topic-wise organization*
 | 27         | Remove Element                   | [27. Remove Element](Arrays/27_Remove_Element.cpp)
 |26          | Remove Duplicates from Sorted Array|[26_Remove_Duplicates_from_Sorted_Array.cpp](Arrays/26_Remove_Duplicates_from_Sorted_Array.cpp)
 | 136        | Single Number                  | [136_Single_Number.cpp](Arrays/136_Single_Number.cpp) |
---
+---
 
 ## Binary Search
 
