@@ -15,24 +15,24 @@ A comprehensive collection of **Data Structures & Algorithms** solutions in C++.
 ---
 
 ## 📋 Table of Contents
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Patterns](#patterns)
-- [Arrays](#arrays)
-- [Binary Search](#binary-search)
-- [Math](#math)
-- [Sorting](#sorting)
-- [Strings](#strings)
-- [Complexity Guide](#complexity-guide)
-- [Learning Path](#learning-path)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [License](#license)
+- [Quick Start Guide](#quick-start-guide)
+- [Project Layout](#project-layout)
+- [Requirements](#requirements)
+- [Pattern Programs](#pattern-programs)
+- [LeetCode Arrays](#leetcode-arrays)
+- [LeetCode Binary Search](#leetcode-binary-search)
+- [LeetCode Math](#leetcode-math)
+- [LeetCode Sorting](#leetcode-sorting)
+- [LeetCode Strings](#leetcode-strings)
+- [Big O Complexity](#big-o-complexity)
+- [Recommended Path](#recommended-path)
+- [Reference Materials](#reference-materials)
+- [How to Contribute](#how-to-contribute)
+- [License Info](#license-info)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start Guide
 
 ### Clone the Repository
 ```bash
@@ -60,7 +60,7 @@ g++ -o pattern Patterns/1_Rectangular_Number_Pattern.cpp
 
 ---
 
-## 📁 Project Structure
+## Project Layout
 ```
 Aadarsh-DSA/
 ├── Patterns/
@@ -108,8 +108,8 @@ Aadarsh-DSA/
 │   ├── 66_PlusOne.cpp
 │   ├── 263_Ugly_Number.cpp
 │   ├── 268_Missing_Number.cpp
-│   ├── 2485_Find_the_Pivot_Integer.cpp
 │   ├── 1502_Can_Make_Arithmetic_Progression_From_Sequence.cpp
+│   ├── 2485_Find_the_Pivot_Integer.cpp
 │   └── 3697_Compute_Decimal_Representation.cpp
 ├── Sorting/
 │   ├── 31_Next_Permutation.cpp
@@ -126,7 +126,7 @@ Aadarsh-DSA/
 
 ---
 
-## 💻 Prerequisites
+## Requirements
 
 ### Required
 - **C++ Compiler** (GCC, Clang, or MSVC)
@@ -154,7 +154,7 @@ g++ --version
 
 ---
 
-## 🎨 Patterns
+## Pattern Programs
 
 Master fundamental programming patterns and loops for building strong foundations.
 
@@ -178,7 +178,7 @@ Master fundamental programming patterns and loops for building strong foundation
 
 ---
 
-## 📊 Arrays
+## LeetCode Arrays
 
 Solve fundamental and intermediate array problems using two-pointer, sliding window, and dynamic programming techniques.
 
@@ -205,7 +205,7 @@ Solve fundamental and intermediate array problems using two-pointer, sliding win
 
 ---
 
-## 🔍 Binary Search
+## LeetCode Binary Search
 
 Efficient searching algorithms for sorted arrays and modified binary search problems.
 
@@ -222,7 +222,7 @@ Efficient searching algorithms for sorted arrays and modified binary search prob
 
 ---
 
-## 🔢 Math
+## LeetCode Math
 
 Number theory, mathematical operations, and computation problems.
 
@@ -242,7 +242,7 @@ Number theory, mathematical operations, and computation problems.
 
 ---
 
-## 📈 Sorting
+## LeetCode Sorting
 
 Sorting algorithms and comparison-based problems.
 
@@ -256,7 +256,7 @@ Sorting algorithms and comparison-based problems.
 
 ---
 
-## 📝 Strings
+## LeetCode Strings
 
 String manipulation, pattern matching, and text processing problems.
 
@@ -271,7 +271,7 @@ String manipulation, pattern matching, and text processing problems.
 
 ---
 
-## 📚 Complexity Guide
+## Big O Complexity
 
 ### Time Complexity Classes
 | Notation | Name | Example |
@@ -293,42 +293,42 @@ String manipulation, pattern matching, and text processing problems.
 
 ---
 
-## 📚 Learning Path
+## Recommended Path
 
-**Recommended order for mastering DSA:**
+**Suggested order for mastering DSA:**
 
 1. **Patterns** (Basics)
    - Build strong loop fundamentals
    - Time complexity: O(n²)
 
-2. **Arrays** (Intermediate to Advanced)
+2. **LeetCode Arrays** (Intermediate to Advanced)
    - Master array manipulation
    - Two-pointer technique
    - Sliding window approach
 
-3. **Math** (Intermediate)
+3. **LeetCode Math** (Intermediate)
    - Number theory concepts
    - Mathematical operations
    - Bit manipulation basics
 
-4. **Sorting** (Intermediate)
+4. **LeetCode Sorting** (Intermediate)
    - Understand sorting algorithms
    - In-place modifications
    - Comparison operations
 
-5. **Strings** (Intermediate to Advanced)
+5. **LeetCode Strings** (Intermediate to Advanced)
    - String manipulation techniques
    - Pattern matching
    - Character encoding
 
-6. **Binary Search** (Advanced)
+6. **LeetCode Binary Search** (Advanced)
    - Optimal searching strategies
    - Edge case handling
    - Search space optimization
 
 ---
 
-## 🎓 Key Concepts
+## Key Concepts
 
 ### Two-Pointer Technique
 - Used in: Container With Most Water, Remove Duplicates, etc.
@@ -352,7 +352,7 @@ String manipulation, pattern matching, and text processing problems.
 
 ---
 
-## 💡 Code Quality Standards
+## Code Quality Standards
 
 ✅ **Clean Code**
 - Follows C++ naming conventions (camelCase for variables)
@@ -372,7 +372,7 @@ String manipulation, pattern matching, and text processing problems.
 
 ---
 
-## 📝 Example: Maximum Subarray (Kadane's Algorithm)
+## Example: Maximum Subarray (Kadane's Algorithm)
 
 ```cpp
 #include <iostream>
@@ -405,7 +405,7 @@ int main() {
 
 ---
 
-## 📖 Resources
+## Reference Materials
 
 ### Interview Preparation
 - **Apna College Interview Sheet** (Companies & Questions):  
@@ -423,11 +423,11 @@ int main() {
 
 ---
 
-## 🤝 Contributing
+## How to Contribute
 
 Contributions are welcome! Here's how you can help:
 
-### How to Contribute
+### Process
 1. **Fork** the repository
 2. **Clone** your fork locally
 3. **Create** a new branch (`git checkout -b feature/amazing-feature`)
@@ -436,14 +436,14 @@ Contributions are welcome! Here's how you can help:
 6. **Push** to your branch (`git push origin feature/amazing-feature`)
 7. **Open** a Pull Request
 
-### Contribution Guidelines
+### Guidelines
 - Follow C++ naming conventions
 - Add time/space complexity analysis
 - Include comments explaining the approach
 - Test your code before submitting
 - Add driver code / example test cases
 
-### Types of Contributions
+### Types of Contributions Welcome
 - ✅ New LeetCode problem solutions
 - ✅ Optimized versions of existing solutions
 - ✅ Bug fixes and improvements
@@ -453,7 +453,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
+## License Info
 
 This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
 
@@ -461,7 +461,7 @@ Free to use for educational and personal purposes. ✅
 
 ---
 
-## 👤 Author
+## Author
 
 **Aadarsh M**
 - GitHub: [@AadarshM045](https://github.com/AadarshM045)
@@ -470,16 +470,16 @@ Free to use for educational and personal purposes. ✅
 
 ---
 
-## ⭐ Motivation
+## Support
 
-If you found this repository helpful in your DSA journey, please give it a **⭐ star** on GitHub! It helps:
+If you found this repository helpful in your DSA journey, please give it a ⭐ star on GitHub! It helps:
 - 🚀 Motivate further development
 - 👥 Help others discover this resource
 - 📈 Track interest in the project
 
 ---
 
-## 🎯 Next Steps in Your DSA Journey
+## Next Steps in Your DSA Journey
 
 After mastering these fundamentals, explore:
 
@@ -494,7 +494,7 @@ After mastering these fundamentals, explore:
 
 ---
 
-## 📞 Questions or Feedback?
+## Questions or Feedback?
 
 - Open an **Issue** for bugs or suggestions
 - Discuss problems in **Discussions** section
@@ -503,7 +503,7 @@ After mastering these fundamentals, explore:
 
 ---
 
-## 📊 Repository Stats
+## Repository Stats
 
 - **Total LeetCode Problems:** 40+
 - **Pattern Programs:** 13
@@ -513,7 +513,7 @@ After mastering these fundamentals, explore:
 
 ---
 
-## 🎁 Bonus Tips
+## Bonus Tips
 
 ### Quick Compilation Commands
 ```bash
