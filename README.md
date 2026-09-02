@@ -93,7 +93,8 @@ Aadarsh-DSA/
 │   ├── 283_Move_Zeroes.cpp
 │   ├── 852_Peak_Index_in_a_Mountain_Array.cpp
 │   ├── 910_Smallest_Range_II.cpp
-│   └── 3745_Maximize_Expression_of_Three_Elements.cpp
+│   ├── 3745_Maximize_Expression_of_Three_Elements.cpp
+|   └── 268_Missing_Number.cpp
 ├── BinarySearch/
 │   ├── 33_Search_in_Rotated_Sorted_Array.cpp
 │   ├── 34_Find_First_and_Last_Position_in_Sorted_Array.cpp
@@ -202,6 +203,7 @@ Solve fundamental and intermediate array problems using two-pointer, sliding win
 | 14 | 852 | Peak Index in a Mountain Array | [`852_Peak_Index_in_a_Mountain_Array.cpp`](./Arrays/852_Peak_Index_in_a_Mountain_Array.cpp) | Easy | O(log n) | O(1) |
 | 15 | 910 | Smallest Range II | [`910_Smallest_Range_II.cpp`](./Arrays/910_Smallest_Range_II.cpp) | Medium | O(n log n) | O(1) |
 | 16 | 3745 | Maximize Expression of Three Elements | [`3745_Maximize_Expression_of_Three_Elements.cpp`](./Arrays/3745_Maximize_Expression_of_Three_Elements.cpp) | Hard | O(n) | O(1) |
+| 17 | 268 | Missing Number | [`3745_Maximize_Expression_of_Three_Elements.cpp`](./Arrays/268_Missing_Number.cpp) | Easy | O(n) | O(1) |
 
 ---
 
