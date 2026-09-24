@@ -78,6 +78,7 @@ Aadarsh-DSA/
 │   ├── 12_Hollow_Diamond_Star_Pattern.cpp
 │   └── 13_Butterfly_Star_Pattern.cpp
 ├── Arrays/
+|   |── 1_Two_Sum.cpp
 │   ├── 11_Container_With_Most_Water.cpp
 │   ├── 26_Remove_Duplicates_from_Sorted_Array.cpp
 │   ├── 27_Remove_Element.cpp
@@ -204,6 +205,8 @@ Solve fundamental and intermediate array problems using two-pointer, sliding win
 | 15 | 910 | Smallest Range II | [`910_Smallest_Range_II.cpp`](./Arrays/910_Smallest_Range_II.cpp) | Medium | O(n log n) | O(1) |
 | 16 | 3745 | Maximize Expression of Three Elements | [`3745_Maximize_Expression_of_Three_Elements.cpp`](./Arrays/3745_Maximize_Expression_of_Three_Elements.cpp) | Hard | O(n) | O(1) |
 | 17 | 268 | Missing Number | [`3745_Maximize_Expression_of_Three_Elements.cpp`](./Arrays/268_Missing_Number.cpp) | Easy | O(n) | O(1) |
+| 18 | 1 | Two Sum | [`1_Two_Sum.cpp`](./Arrays/1_Two_Sum.cpp) | Easy | O(n log n) | O(1) |
+
 
 ---
 
