@@ -208,6 +208,7 @@ Solve fundamental and intermediate array problems using two-pointer, sliding win
 | 17 | 268 | Missing Number | [`3745_Maximize_Expression_of_Three_Elements.cpp`](./Arrays/268_Missing_Number.cpp) | Easy | O(n) | O(1) |
 | 18 | 1 | Two Sum | [`1_Two_Sum.cpp`](./Arrays/1_Two_Sum.cpp) | Easy | O(n log n) | O(1) |
 | 19 | 2149 | Rearrange Array Elements by Sign | [`2149_Rearrange_Array_Elements_by_Sign.cpp`](./Arrays/2149_Rearrange_Array_Elements_by_Sign.cpp) | Medium | O(n) | O(n) |
+| 20 | 118 | Pascal's Triangle | [118_Pascals_Triangle.cpp](Arrays/118_Pascals_Triangle.cpp) |
 
 
 ---
