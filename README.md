@@ -513,7 +513,7 @@ After mastering these fundamentals, explore:
 
 ## Repository Stats
 
-- **Total LeetCode Problems:** 40+
+- **Total LeetCode Problems:** 40+ problems
 - **Pattern Programs:** 13
 - **Categories:** 6 (Patterns, Arrays, Binary Search, Math, Sorting, Strings)
 - **Languages:** C++
