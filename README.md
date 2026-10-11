@@ -547,5 +547,5 @@ g++ -g -o output filename.cpp && gdb ./output
 
 **Last Updated:** 2024
 **C++ Standard:** C++11 and above
-**Status:** ✅ Active & Regularly 
+
 
