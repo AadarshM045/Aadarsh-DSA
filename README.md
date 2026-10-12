@@ -459,7 +459,15 @@ Contributions are welcome! Here's how you can help:
 - ✅ New pattern programs
 - ✅ Detailed explanations
 
+---
 
+## License Info
+
+This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.
+
+Free to use for educational and personal purposes. ✅
+
+---
 
 ## Author
 
